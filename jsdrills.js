@@ -1,12 +1,12 @@
 // JS Drills
 
-
 // Add
 
 function add (x, y) {
   return x + y;
 }
 console.log(add(4,6));
+
 
 // Sum Array
 
@@ -46,9 +46,8 @@ var vowels = function(string) {
       check += 1
       // return(check)
       }
-  } console.log(check)
+  } console.log(check);
 }
-
 vowels("Check the vowels in a STRING".toLowerCase());
 
 
@@ -74,6 +73,6 @@ function fib(a) {
       n0 = n1                               // set n(n-2) to n(n-1)
       n1 = num;                             // set n(n-1) to result n, result n of current index, continue looping until i = a
     }
-    return num                              // result n(a)
+    return num;                              // result n(a)
 }
 console.log(fib(7));
